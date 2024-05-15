@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Banh = +prompt(' số bánh của mẹ là');
+        var emtrai;
+        var anhtrai;
+        if (Banh % 2 == 0) {
+            emtrai = anhtrai = Banh / 2;
+        } else {
+            emtrai = (Banh - 1) / 2;
+            anhtrai = Banh - emtrai;
+        }
+        document.write('Mẹ có ' + Banh + ' chiếc bánh ' + '<br/>' + 'Anh có ' + anhtrai + ' chiếc bánh ' + '<br/>' + 'Em có ' + emtrai + ' chiếc bánh')
+    </script>
+</body>
+
+</html>

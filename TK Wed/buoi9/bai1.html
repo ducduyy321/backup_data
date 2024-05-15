@@ -1,0 +1,19 @@
+điền ngày sinh vào đây
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bai 1</title>
+</head>
+
+<body>
+    <input type="text" id="day">
+    <button onclick="cal()">Kiểm tra</button>
+    <script>
+        function cal() {
+            var a = +document.getElementById('day').value;
+            if (a % 2 == 0) {
+                alert('là Số chẵn');
+            } else {
+                alert('là Số lẻ');
+            }
+        }
+    </script>

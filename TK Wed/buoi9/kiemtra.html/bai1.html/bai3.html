@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function tongSoLe(mang) {
+            let tong = 0;
+            for (let i = 0; i < mang.length; i++) {
+                if (mang[i] % 2 !== 0) {
+                    tong += mang[i];
+                }
+            }
+            return tong;
+        }
+
+        let mang = [1, -10, 20, 100, 35, 9, 23, -3, 80, 98];
+        document.write("Tổng các số lẻ trong mảng : " + tongSoLe(mang) + "<br/>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.abc{
+    text-align: center;
+}
+.head-link{
+    height: 70px; height: 40px;
+    background-color:rgb(46, 37, 173);
+
+}
+a{
+    margin-inline: 20px;
+    color: rgb(254, 254, 254);
+}
+
+footer {
+    background-color: #272714;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .thanh {
+    line-height: 50px;
+}
+
+.t1 {
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30%;
+}
+
+.t2 {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.anhto{
+        border: 1px solid rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+        padding: 10px;
+    }
+    .anhnho{
+        border: 1px solid rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+        padding: 10px;
+    }
+    
+

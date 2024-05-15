@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(26, 21, 21);
+    background-image:url(https://thuthuatnhanh.com/wp-content/uploads/2022/05/background-trang-xam.jpg);
+  }
+  
+  header,
+  nav,
+  section,
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: hsl(60, 100%, 50%);
+    color: #c71818;
+    width: 100%;
+    
+  }
+  
+  nav {
+    background-color: #beb5b5;
+    padding: 10px;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  
+  }
+  
+  nav ul li a {
+    color: #2c2828;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    text-align: center;
+    border: 1px solid rgb(205, 189, 189);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 180px;
+    height: 200px;
+  }
+  
+  .menu img {
+    width: 40px;
+    height: 100%;
+  }
+  
+  footer {
+    background-color: #272714;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product p {
+    font-size: 20px;
+    color: #f60b0b;
+  
+  }
+  
+  .product h4 {
+    text-decoration: line-through;
+  }
+  
+  .product h6 {
+    border: 1px solid rgb(30, 28, 28);
+  }
+  
+  a:hover {
+    background-color: yellow;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #cfd614;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content:hover {
+    background-color: yellow;
+  }
+  
+  .dropdown-content:hover {
+    color: #f60b0b;
+  
+  } 
+  
+  .review {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .mot {
+    width: 50px;
+  }
+  
+  .product1 {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .button :hover {
+    background-color: rgb(199, 36, 36) !important;
+
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 1130px;
+  }
+
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .search-bar button i {
+    color: #777;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 1120px;
+  }
+
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .search-bar button i {
+    color: #777;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .product1 h4 {
+    text-decoration: line-through;
+  }
+
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function sumArray(check) {
+            let sum = 0;
+            for (let i = 0; i < check.length; i++) {
+                sum += check[i];
+            }
+            return sum;
+        }
+
+        let check = [2, 5, 8, 6, 3, 9, 3, 6, 3];
+        document.write(sumArray(check));
+    </script>
+</body>
+
+</html>
